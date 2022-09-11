@@ -15,4 +15,5 @@ printf("Size of a short int: %hd byte(s)\n", sizeof(short int));
 printf("Size of a unsigned int: %u byte(s)\n", sizeof(unsigned int));
 printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
 printf("Size of a long long int: %lld byte(s)\n", sizeof(long long int));
+return (0);
 }
