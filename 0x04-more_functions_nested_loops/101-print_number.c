@@ -8,7 +8,7 @@
 
 void print_number(int n)
 {
-xchar ld, cr;
+char ld, cr;
 int r;
 int ct = 0;
 
