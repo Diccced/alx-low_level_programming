@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * print_number - that prints an integer
  * @n: number to string
@@ -8,24 +8,16 @@
 
 void print_number(int n)
 {
-int pot_10 = 1, sign = 1, tmp = n;
-
-while (tmp / 10)
+unsigned int y;
+if (n < 0)
 {
-pot_10 *= 10;
-tmp /= 10;
+_putchar ("_");
+n *= -1;
 }
 
-if (tmp < 0)
-{
-sign *= -1;
-_putchar('-');
-}
-while (pot_10 > 0)
-{
-tmp = n / pot_10;
-_putchar((tmp *sign)+'0');
-n = n - (tmp *pot_10);
-pot_10 /= 10;
-}
+x = n;
+if (x / 10)
+
+print_number(y / 10);
+_putchar (y % 10 + '0');
 }
