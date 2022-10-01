@@ -65,7 +65,7 @@ else
 {
 cents = changecents(i);
 
-printf("%d\n", coin);
+printf("%d\n", cents);
 }
 
 return (0);
